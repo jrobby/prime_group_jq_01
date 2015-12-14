@@ -2,6 +2,13 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+/* Clear Fix starts here*/
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Clear fix ends here*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
